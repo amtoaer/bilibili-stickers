@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-var (
+const (
 	errOpenFile      = "读取表情包列表失败"
 	errParseFile     = "解析表情包列表失败"
 	errGetInfo       = "获取表情包信息失败"
