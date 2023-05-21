@@ -22,7 +22,7 @@ import (
 )
 
 const (
-	errGetCookie     = "读取 cookie 失败，请设置命令行参数 -cookie"
+	errGetCookie     = "读取 sessdata 失败，请设置命令行参数 -sessdata"
 	errGetEmoji      = "获取表情包列表失败：%v"
 	errParseEmoji    = "解析表情包列表失败：%v"
 	errGetInfo       = "获取表情包信息失败"
