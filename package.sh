@@ -3,6 +3,9 @@ if [ ! -d "./package" ]; then
     mkdir ./package
 fi
 
+# copy executable file
+cp ./bilibili-stickers ./package/
+
 stickers=$(ls ./stickers)
 for sticker in $stickers; do
     if [ -d ./stickers/$sticker ]; then
